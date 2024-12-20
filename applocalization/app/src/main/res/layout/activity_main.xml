@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="18sp"
+        android:padding="20dp"/>
+
+    <!-- Button to switch to Telugu -->
+    <Button
+        android:id="@+id/buttonTelugu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch to Telug"
+        android:onClick="switchToTelugu"/>
+
+    <!-- Button to switch to Spanish -->
+    <Button
+        android:id="@+id/buttonSpanish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch to Spanish"
+        android:onClick="switchToSpanish"/>
+
+    <!-- Button to switch to English (optional, for convenience) -->
+    <Button
+        android:id="@+id/buttonEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch to English"
+        android:onClick="switchToEnglish"/>
+
+</LinearLayout>

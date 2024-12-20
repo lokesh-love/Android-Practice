@@ -1,0 +1,28 @@
+<!-- res/menu/main_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Profile Menu -->
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/baseline_self_improvement_24"
+        android:title="Profile"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/change_theme"
+                android:title="Change Theme" />
+            <item
+                android:id="@+id/change_password"
+                android:title="Change Password" />
+        </menu>
+    </item>
+
+    <!-- Settings Menu -->
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings"
+        app:showAsAction="always" />
+
+</menu>

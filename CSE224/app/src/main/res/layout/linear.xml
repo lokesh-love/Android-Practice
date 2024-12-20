@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/img"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="enter phone number here"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter your name here" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Data will display here" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:alpha="1"
+        android:backgroundTintMode="add"
+        android:fontFamily="casual"
+        android:insetLeft="50dp"
+        android:lineSpacingExtra="20sp"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:icon="@android:drawable/btn_star_big_on"
+        app:iconPadding="5dp" />
+</LinearLayout>

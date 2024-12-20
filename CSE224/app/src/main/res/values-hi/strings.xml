@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text1">हेलो</string>
+    <string name="text2">नमस्ते</string>
+    <string name="text3">अध्ययन</string>
+    <string name="text4">कक्षा</string>
+    <string name="app_name">My Application</string>
+    <string name="vision">शिक्षा को सशक्त बनाना</string>
+</resources>

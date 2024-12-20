@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Button for changing the theme -->
+    <Button
+        android:id="@+id/btnChangeTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Theme"
+        android:textAllCaps="false"
+        android:padding="12dp" />
+
+    <!-- Button for changing the password -->
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision">शिक्षा सशक्तीकरण</string>
+    <string name="app_name">CSE224</string>
+    <string name="text1">hello</string>
+    <string name="text2">namaste</string>
+    <string name="text3">study</string>
+    <string name="text4">class</string>
+</resources>

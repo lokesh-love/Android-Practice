@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL" />
+
+    <Button
+        android:id="@+id/Navigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="navigate" />
+
+    <Button
+        android:id="@+id/btnCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+
+    <Button
+        android:id="@+id/btncontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gallery" />
+
+    <Button
+        android:id="@+id/btndial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialer" />
+</LinearLayout>
